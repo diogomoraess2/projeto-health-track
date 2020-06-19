@@ -1,0 +1,13 @@
+{
+  "name": "ht_project",
+  "version": "1.0.0",
+  "description": "Projeto Health Track",
+  "main": "index.js",
+  "author": "Diogo Moraes",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}

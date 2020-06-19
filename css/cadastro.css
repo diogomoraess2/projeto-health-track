@@ -1,0 +1,140 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+    text-align: center;
+    color: white;
+}
+
+h2{
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}    
+
+body{
+    background: url("../imagens/Health\ Track\ -\ Background\ 2.png");
+    text-align: center;
+}
+.form-group{
+    overflow: hidden;
+    margin: 2px 0;
+    border-bottom: 1px solid white;
+    text-align: center;
+    width: 300px;
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%)
+}
+
+
+.form-group input{
+    float: left;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    background: transparent;
+}
+
+
+.form-group input:focus{
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.form-group input:focus:focus::placeholder{
+    color: transparent;
+}
+
+.form-group input[type="email"]{
+    background-image: url("../icones/mail_icon.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.form-group input[type="password"]{
+    background-image: url("../icones/key_icon.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+input[type="date"]{
+    color: gray;
+}
+
+input[type="number"]{
+    color: gray;
+}
+
+#esqueceu,#entrar,#registrar,#face,#google:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#esqueceu{
+    background: none;
+    border: none;
+}
+
+#entrar{
+    width: 100%;
+    background-color: #dc143c;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#face{
+    width: 50px;
+    height: 50px;
+    background: url("../icones/facebook_icon.png");
+    border: none;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    position: relative;
+    margin-right: 30px;
+}
+
+#google{
+    width: 50px;
+    height: 50px;
+    background: url("../icones/google_icon.png");
+    border: none;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#registrar{
+    width: 150px;
+    background-color: #dc143c;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+input[type="submit"]{
+    border-bottom: transparent;
+    background-color: transparent;
+    border: transparent;
+    font-size: small;
+    font-style: italic;
+}
+
+input[type="file"]{
+    border-bottom: transparent;
+    background-color: transparent;
+    border: transparent;
+    font-size: small;
+    size: 50px;
+}
+
+img{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+}

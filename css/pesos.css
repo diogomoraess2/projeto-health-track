@@ -1,0 +1,49 @@
+.bg-image{
+    background-image: url("../imagens/Health\ Track\ -\ Background\ 2.png");
+}
+
+nav{
+    background-color: #dc143c;
+}
+
+h3{
+    color: white;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.btn{
+    background-color: black;
+    width: 60px;
+    font-size: x-small;
+}
+#data{
+     color: white;
+ }
+
+ #peso{
+     color: white;
+ }
+
+ #acao{
+     color: white;
+ }
+
+ body{
+     text-align: center;
+ }
+
+ table{
+     text-align: center;
+ }
+
+ button{
+    width: 300px;
+    background-color: #dc143c;
+    border: none;
+    font-size: 20px;
+}
+
+#btnAdicionar{
+    color: white;
+}

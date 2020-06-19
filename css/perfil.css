@@ -1,0 +1,62 @@
+.bg-image{
+    background-image: url("../imagens/Health\ Track\ -\ Background\ 2.png");
+}
+
+body{
+    text-align: center;
+}
+
+nav{
+    background-color: #dc143c;
+}
+
+h3{
+    color: white;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.btn{
+    background-color: black;
+    width: 60px;
+    font-size: x-small;
+}
+#data{
+     color: white;
+ }
+
+ #peso{
+     color: white;
+ }
+
+ #acao{
+     color: white;
+ }
+
+#foto{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+h4{
+    font-size: x-large;
+    color: white;
+}
+
+#altura{
+    width: 300px;
+    color: white;
+    margin: 0 auto;
+}
+
+#editar{
+    width: 300px;
+    background-color: #dc143c;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 20px;
+    margin-top: 100px;
+    color: white;
+}
